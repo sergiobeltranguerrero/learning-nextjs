@@ -1,0 +1,14 @@
+{
+  "extends": "next/core-web-vitals",
+    "rules": {
+        "next/no-css-tags": "off"
+    },
+    "globals": {
+        "React": "writable"
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}
